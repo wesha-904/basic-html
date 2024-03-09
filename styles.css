@@ -1,3 +1,75 @@
-body{
-    background: black;
+body {
+    margin:0;
+    border:0;
+    background: #708D81;
+}
+
+body {
+    background: #708D81;
+}
+
+.header {
+    height:10vh;
+    width:100vw;
+    align-items: center;
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.left img{
+    margin-left: 0.6rem;
+    height:50px;
+    width:auto;
+}
+
+.center p{
+    font-size:1rem;
+   
+}
+
+.right img{
+    margin-right: 0.6rem;
+    height:50px;
+    width:auto;
+}
+
+
+.characters{
+    display:flex;
+    position:relative;
+    height:90vh;
+    width:100vw;
+    justify-content:space-between;
+}
+
+.left-character img {
+    height:500px;
+    width:auto;
+    
+}
+
+.left-character {
+    position:absolute;
+    margin-left:1rem;
+    bottom:0px;
+}
+
+
+.catchphrase{
+    margin-left: 50vh;
+}
+
+.right-character img {
+    height:500px;
+    width:auto;
+}
+
+.right-character {
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    margin-right:1rem;
 }
