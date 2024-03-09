@@ -8,6 +8,7 @@ body {
     background: #708D81;
 }
 
+/*
 .header {
     height:10vh;
     width:100vw;
@@ -18,6 +19,20 @@ body {
     justify-content:space-between;
 }
 
+
+.characters{
+    align-items: center;
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content:space-between;
+    /*display:flex;
+    position:relative;
+    justify-content: center;
+    height:90vh;
+    width:100vw;
+    
+}
 
 .left img{
     margin-left: 0.6rem;
@@ -36,30 +51,28 @@ body {
     width:auto;
 }
 
+.center-info{
+    
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    
+ }
 
-.characters{
-    display:flex;
-    position:relative;
-    height:90vh;
-    width:100vw;
-    justify-content:space-between;
+ .right-character img {
+    height:500px;
+    width:auto;
 }
 
 .left-character img {
     height:500px;
     width:auto;
-    
 }
 
 .left-character {
-    position:absolute;
+    margin-top:20vh;
     margin-left:1rem;
     bottom:0px;
-}
-
-
-.catchphrase{
-    margin-left: 50vh;
 }
 
 .right-character img {
@@ -73,3 +86,99 @@ body {
     bottom:0px;
     margin-right:1rem;
 }
+*/
+/*
+.left-character img {
+    height:500px;
+    width:auto;
+    
+}
+
+.left-character {
+    position:absolute;
+    margin-left:1rem;
+    bottom:0px;
+}
+.center-info{
+   justify-content: center;
+   width:700px;
+   justify-content: space-between;
+}
+
+/*
+.catchphrase{
+    margin-left: 3vw ;
+    font-size:2rem;
+    font-weight: 1000;
+    color: #001427;
+}
+
+.click-btn{
+    margin-left: 45vw ;
+    height:50px;
+    width:100px;
+    background-color:#FF725E;
+    color: #001427;
+    border-radius:15px;
+    text-align: center;
+    padding-top:1px;
+}
+
+/*.click-btn p{
+    margin:10px;
+    padding:10px;
+    color: #001427;
+
+}
+
+.to-do{
+    justify-content: center;
+    width:500px;
+    margin-left: 25vw ;
+    font-size: 25px;
+    color: #001427;
+}
+
+.todo1 img{
+    height:4rem;
+
+}
+
+.todo2 img{
+    height:4rem;
+}
+
+.todo1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo1 pre{
+    margin-left:20px;
+}
+
+.todo2 pre{
+    margin-left:20px;
+}
+
+
+.todo2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-character img {
+    height:500px;
+    width:auto;
+}
+
+.right-character {
+    position:absolute;
+    right:0px;
+    bottom:0px;
+    margin-right:1rem;
+}
+
+*/
