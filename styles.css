@@ -1,13 +1,172 @@
 body {
     margin:0;
     border:0;
-    background: #708D81;
+    
 }
 
 body {
-    background: #708D81;
+    background-image: url(media/bg.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
 }
 
+.main-div
+{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.left{
+    position:relative;
+    padding-top:0.5rem;
+    width:20vw;
+    
+}
+
+.left-character img {
+    position:absolute;
+    height:600px;
+    width:auto;
+    left:0px;
+    margin-left:0.6rem;
+    bottom:0px;
+
+}
+
+.logo img{
+    margin-left: 1rem;
+    height:80px;
+    width:auto;
+}
+
+.center
+{
+    width:60vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin-top:0px;
+}
+
+.to-do{
+    width:60vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #001427;
+}
+
+.todo1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.todo1 img{
+    height:3rem;
+
+}
+
+.todo2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.todo2 img{
+    height:3rem;
+
+}
+
+.todo1 p{
+    margin-left:20px;
+}
+
+.todo2 p{
+    margin-left:20px;
+}
+
+.text-note img {
+    margin-left: 55vh;
+}
+
+
+.text-note img {
+    height:3rem;
+    width:auto;
+}
+
+.pdf-note img {
+    height:3rem;
+    width:auto;
+}
+
+.pdf-note {
+    margin-left: 55vh;
+}
+
+
+.click-btn{
+    margin-left: 40%;
+    margin-top:1rem;
+    font-size: 1.5rem;
+    height:60px;
+    width:200px;
+    background-color:#FF725E;
+    color: #FFFFFF;
+    border-radius:15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.click-btn p{
+    padding-top:15px;
+}
+
+
+
+.right{
+    position:relative;
+    width:20vw;
+    
+}
+
+.title{
+    position:absolute;
+    margin-right:0.5rem;
+    
+    right:0px;
+    margin-top: 0.6rem;
+}
+
+.right-character img {
+    position:absolute;
+    height:600px;
+    width:auto;
+    right:0px;
+    bottom:0px;
+    margin-right:0.6rem;
+}
+
+/*fonts*/
+
+.catchphrase{
+  
+    font-family: apple garam;
+    margin-top: 0rem;
+    font-size:3.5rem;
+    font-weight: 1000;
+    color: #001427;
+    text-align: center;
+}
 /*
 .header {
     height:10vh;
