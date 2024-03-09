@@ -10,6 +10,7 @@ body {
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
+    
 }
 
 .main-div
@@ -39,7 +40,7 @@ body {
 
 .logo img{
     margin-left: 1rem;
-    height:80px;
+    height:70px;
     width:auto;
 }
 
@@ -53,64 +54,13 @@ body {
     margin-top:0px;
 }
 
-.to-do{
-    width:60vw;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #001427;
+.center img
+{
+    width:75vh;
+    height:auto;
+    margin-left: 25vh;
 }
 
-.todo1{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-}
-
-.todo1 img{
-    height:3rem;
-
-}
-
-.todo2{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display:flex;
-}
-
-.todo2 img{
-    height:3rem;
-
-}
-
-.todo1 p{
-    margin-left:20px;
-}
-
-.todo2 p{
-    margin-left:20px;
-}
-
-.text-note img {
-    margin-left: 55vh;
-}
-
-
-.text-note img {
-    height:3rem;
-    width:auto;
-}
-
-.pdf-note img {
-    height:3rem;
-    width:auto;
-}
-
-.pdf-note {
-    margin-left: 55vh;
-}
 
 
 .click-btn{
@@ -142,9 +92,12 @@ body {
 .title{
     position:absolute;
     margin-right:0.5rem;
-    
     right:0px;
     margin-top: 0.6rem;
+}
+
+.title img{
+    height:70px;
 }
 
 .right-character img {
@@ -162,182 +115,8 @@ body {
   
     font-family: apple garam;
     margin-top: 0rem;
-    font-size:3.5rem;
+    font-size:3.2rem;
     font-weight: 1000;
     color: #001427;
     text-align: center;
 }
-/*
-.header {
-    height:10vh;
-    width:100vw;
-    align-items: center;
-    display:flex;
-    position:relative;
-    align-items: center;
-    justify-content:space-between;
-}
-
-
-.characters{
-    align-items: center;
-    display:flex;
-    position:relative;
-    align-items: center;
-    justify-content:space-between;
-    /*display:flex;
-    position:relative;
-    justify-content: center;
-    height:90vh;
-    width:100vw;
-    
-}
-
-.left img{
-    margin-left: 0.6rem;
-    height:50px;
-    width:auto;
-}
-
-.center p{
-    font-size:1rem;
-   
-}
-
-.right img{
-    margin-right: 0.6rem;
-    height:50px;
-    width:auto;
-}
-
-.center-info{
-    
-    justify-content: center;
-    align-items: center;
-    width:700px;
-    
- }
-
- .right-character img {
-    height:500px;
-    width:auto;
-}
-
-.left-character img {
-    height:500px;
-    width:auto;
-}
-
-.left-character {
-    margin-top:20vh;
-    margin-left:1rem;
-    bottom:0px;
-}
-
-.right-character img {
-    height:500px;
-    width:auto;
-}
-
-.right-character {
-    position:absolute;
-    right:0px;
-    bottom:0px;
-    margin-right:1rem;
-}
-*/
-/*
-.left-character img {
-    height:500px;
-    width:auto;
-    
-}
-
-.left-character {
-    position:absolute;
-    margin-left:1rem;
-    bottom:0px;
-}
-.center-info{
-   justify-content: center;
-   width:700px;
-   justify-content: space-between;
-}
-
-/*
-.catchphrase{
-    margin-left: 3vw ;
-    font-size:2rem;
-    font-weight: 1000;
-    color: #001427;
-}
-
-.click-btn{
-    margin-left: 45vw ;
-    height:50px;
-    width:100px;
-    background-color:#FF725E;
-    color: #001427;
-    border-radius:15px;
-    text-align: center;
-    padding-top:1px;
-}
-
-/*.click-btn p{
-    margin:10px;
-    padding:10px;
-    color: #001427;
-
-}
-
-.to-do{
-    justify-content: center;
-    width:500px;
-    margin-left: 25vw ;
-    font-size: 25px;
-    color: #001427;
-}
-
-.todo1 img{
-    height:4rem;
-
-}
-
-.todo2 img{
-    height:4rem;
-}
-
-.todo1{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.todo1 pre{
-    margin-left:20px;
-}
-
-.todo2 pre{
-    margin-left:20px;
-}
-
-
-.todo2{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.right-character img {
-    height:500px;
-    width:auto;
-}
-
-.right-character {
-    position:absolute;
-    right:0px;
-    bottom:0px;
-    margin-right:1rem;
-}
-
-*/
