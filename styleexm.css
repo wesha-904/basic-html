@@ -21,13 +21,18 @@ body {
     width:200px;
     border-radius:50%;
     margin-top: 20vh;
-    margin-left:4rem;
+    margin-left:7rem;
 }
 
 .voice-record img{
     height:5rem;
    
 }
+
+.right{
+    display:flex;
+}
+
 
 .back{
     height:50px;
