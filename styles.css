@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-image: url(media/bg.png);
+    background-image: url(media/bg\ \(4\).png);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
@@ -39,6 +39,7 @@ body {
 }
 
 .logo img{
+    margin-top:0.5rem;
     margin-left: 1rem;
     height:70px;
     width:auto;
