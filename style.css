@@ -1,0 +1,66 @@
+body {
+    margin:0;
+    border:0;
+    
+}
+
+body {
+    background-image: url(media2/bg_results.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover; 
+}
+
+.speech{
+    display:flex;
+
+}
+
+
+.voice-record{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+
+
+
+
+
+.speech{
+    height:35rem;
+    width:70rem;
+    margin-top: 5rem;
+    margin-left:50vh;
+    background-color: #D6D7E0;
+    border-radius: 1rem;
+    text-align:center;
+    padding-top: 0.5rem;
+    color:#001427;
+    font-size: larger;
+}
+
+
+.speech h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#001427;
+    font-size:2rem;
+}
+
+
+.speech p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#001427;
+    font-size: larger;
+    text-align: left;
+    padding-left:5rem;
+}
+
+
+
+
+
