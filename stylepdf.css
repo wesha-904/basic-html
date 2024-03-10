@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background-image: url(media2/bg_results.png);
+    background-image: url(media3/Desktop\ -\ 1\ \(5\).png);
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
@@ -16,18 +16,7 @@ body {
     display:flex;
 }
 
-.voice-record{
-    height:200px;
-    width:200px;
-    border-radius:50%;
-    margin-top: 20vh;
-    margin-left:4rem;
-}
 
-.voice-record img{
-    height:5rem;
-   
-}
 
 .back{
     height:50px;
@@ -43,11 +32,11 @@ body {
 
 
 
-.speech{
+.summary{
     height:40rem;
     width:25rem;
-    margin-top: 1rem;
-    margin-left:23vh;
+    margin-top: 2rem;
+    margin-left:5vh;
     background-color: #D6D7E0;
     border-radius: 1rem;
     text-align:center;
@@ -57,14 +46,14 @@ body {
 }
 
 
-.speech h2{
+.summary h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#001427;
     font-size:2rem;
 }
 
 
-.speech p{
+.summary p{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#001427;
     font-size: larger;
@@ -72,11 +61,11 @@ body {
     padding-left:3rem;
 }
 
-.to-list{
+.ask{
     height:40rem;
     width:25rem;
-    margin-top: 1rem;
-    margin-left:10vh;
+    margin-top: 2rem;
+    margin-left:15vh;
     background-color: #D6D7E0;
     border-radius: 1rem;
     text-align:center;
@@ -86,14 +75,14 @@ body {
 }
 
 
-.to-list h2{
+.ask h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#001427;
     font-size:2rem;
 }
 
 
-.to-list p{
+.ask p{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:#001427;
     font-size: larger;
@@ -109,5 +98,32 @@ body {
    border-radius: 15px;
    color: #D6D7E0;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.upload {
+    display:block;  
+}
+
+.choose{
+    margin-top: 18vh;
+    margin-left:9rem;
+}
+
+.submit{
+    margin-top: 40vh;
+    margin-left:13rem;
+    border:none;
+    background:#001427;
+    padding:10px 20px;
+    border-radius: 10px;
+    color:#D6D7E0
+}
+
+input[type = file]::file-selector-button {
+    border:none;
+    background:#001427;
+    padding:10px 20px;
+    border-radius: 10px;
+    color:#D6D7E0
 }
 
